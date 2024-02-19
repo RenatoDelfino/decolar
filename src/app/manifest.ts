@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: 'Agência de Viagens Online com Descontos HOJE | Decolar',
     short_name: 'Decolar',
     description: 'Planeje sua viagem com a Decolar, a maior agência de viagens online do Brasil. Monte o seu pacote de viagem e tire todas as suas dúvidas conosco!',
-    start_url: '/',
+    start_url: 'https://decolar-brasil.com.br/',
     display: 'standalone',
     background_color: '#fff',
     theme_color: '#fff',

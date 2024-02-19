@@ -407,14 +407,16 @@ const TicketCards: React.FC<PropsCartoesPassagem> = ({ ...props }) => {
                   )}
                 </button>
               </div>
-              <button
-                onClick={() => {
-                  !props.isTarget && setShowPopup(true);
-                }}
-                className="bg-[#4300d2] hover:bg-[#3000d2] transition duration-300 ease-in-out px-8 py-2 text-bold text-white rounded-full"
-              >
-                Comprar
-              </button>
+              <a href="/">
+                <button
+                  onClick={() => {
+                    !props.isTarget && setShowPopup(true);
+                  }}
+                  className="bg-[#4300d2] hover:bg-[#3000d2] transition duration-300 ease-in-out px-8 py-2 text-bold text-white rounded-full"
+                >
+                  Comprar
+                </button>
+              </a>;
             </div>
             <div className="hidden xl:block py-2 border-y border-gray/25 px-3">
               <h2 className="text-xs text-gray">
